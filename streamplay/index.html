@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08080b">
+<meta name="description" content="StreamPlay — filmes, séries, canais, esportes e conteúdo infantil em um só lugar. Assine pelo WhatsApp.">
+<title>StreamPlay — Seu entretenimento, do seu jeito</title>
+<link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+<link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+<link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap)" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='[w3.org](http://www.w3.org/2000/svg)' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e20d20'/%3E%3Cpath d='M13 9l11 7-11 7z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="header">
+  <div class="wrap header__inner">
+    <a class="logo" href="#" aria-label="StreamPlay — início">
+      <span class="logo__mark" aria-hidden="true"><span class="logo__play"></span></span>
+      <span class="logo__text">STREAM<b>PLAY</b></span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#planos" aria-current="page">Início</a></li>
+        <li><a class="nav__link" href="#filmes">Filmes</a></li>
+        <li><a class="nav__link" href="#series">Séries</a></li>
+        <li><a class="nav__link" href="#categorias">Canais</a></li>
+        <li><a class="nav__link" href="#categorias">Esportes</a></li>
+        <li><a class="nav__link" href="#categorias">Infantil</a></li>
+        <li><a class="nav__link" href="#planos">Planos</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn" type="button" data-search aria-label="Buscar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </button>
+      <a class="btn btn--primary" href="https://wa.me/556892624845" target="_blank" rel="noopener">
+        <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.54.05-1.03.24-2.9-.6-2.26-1.02-3.7-3.36-3.81-3.51-.11-.16-.9-1.2-.9-2.29 0-1.09.58-1.62.78-1.85.2-.22.44-.28.59-.28.15 0 .3.01.43.01.14 0 .33-.05.51.39.19.46.65 1.58.71 1.69.06.11.1.24.02.39-.08.15-.12.24-.24.37-.12.13-.25.29-.36.39-.12.11-.24.23-.11.46.13.23.58.96 1.25 1.55.86.76 1.58 1 1.81 1.11.23.11.36.09.5-.06.13-.15.57-.66.72-.89.15-.23.3-.19.51-.11.21.08 1.33.63 1.56.74.23.11.38.17.44.26.06.1.06.57-.18 1.25z"/></svg>
+        <span class="btn__label">Fale Conosco</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- CAPA: troque a imagem em img/banner.jpg (ideal 1920x1080) -->
+  <section class="hero" aria-label="Apresentação">
+    <div class="hero__media" role="img" aria-label="Capa StreamPlay"></div>
+
+    <div class="wrap hero__inner">
+      <p class="hero__kicker">Tudo o que você ama em um só lugar</p>
+      <h1 class="hero__title">Stream<em>Play</em></h1>
+      <p class="hero__text">Filmes, séries, canais ao vivo, esportes e conteúdo infantil — em qualquer tela, quando você quiser.</p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="https://wa.me/556892624845" target="_blank" rel="noopener">
+          <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.54.05-1.03.24-2.9-.6-2.26-1.02-3.7-3.36-3.81-3.51-.11-.16-.9-1.2-.9-2.29 0-1.09.58-1.62.78-1.85.2-.22.44-.28.59-.28.15 0 .3.01.43.01.14 0 .33-.05.51.39.19.46.65 1.58.71 1.69.06.11.1.24.02.39-.08.15-.12.24-.24.37-.12.13-.25.29-.36.39-.12.11-.24.23-.11.46.13.23.58.96 1.25 1.55.86.76 1.58 1 1.81 1.11.23.11.36.09.5-.06.13-.15.57-.66.72-.89.15-.23.3-.19.51-.11.21.08 1.33.63 1.56.74.23.11.38.17.44.26.06.1.06.57-.18 1.25z"/></svg>
+          Assine agora
+        </a>
+        <p class="hero__note">Chame no WhatsApp e comece a assistir em poucos minutos.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="perks">
+      <div class="perk">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L4.5 13.5H11L10 22l8.5-11.5H12L13 2z"/></svg>
+        <div><p class="perk__title"><strong>Instalação rápida</strong></p><p class="perk__text">Em poucos minutos</p></div>
+      </div>
+      <div class="perk">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l7.5 3v6c0 4.6-3.2 8.6-7.5 10-4.3-1.4-7.5-5.4-7.5-10v-6l7.5-3z"/></svg>
+        <div><p class="perk__title"><strong>100% seguro</strong></p><p class="perk__text">Sem travamentos</p></div>
+      </div>
+      <div class="perk">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4" width="14" height="10" rx="1.5"/><path d="M6.5 18h10M19.5 8h2v8h-2"/></svg>
+        <div><p class="perk__title"><strong>Multiplataforma</strong></p><p class="perk__text">Smart TV, Celular, Tablet, PC</p></div>
+      </div>
+      <div class="perk">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0116 0v1"/><rect x="2.5" y="13" width="4" height="6" rx="1.6"/><rect x="17.5" y="13" width="4" height="6" rx="1.6"/></svg>
+        <div><p class="perk__title"><strong>Suporte especializado</strong></p><p class="perk__text">Sempre que precisar</p></div>
+      </div>
+    </div>
+  </div>
+
+   <video controls playsinline preload="metadata" style="width: 100%; aspect-ratio: 16 / 9; background: #080d18; object-fit: contain;">
+  <source src="video.mp4.mp4" type="video/mp4">
+</video>
+  
+
+    <div class="wrap">
+      <header class="section__head">
+        <h2 class="section__title">Nossos planos</h2>
+        <p class="section__sub">Escolha o plano ideal para você.</p>
+      </header>
+
+      <div class="plans">
+        <article class="plan">
+          <p class="plan__term">1 MÊS</p>
+          <p class="plan__price"><sup>R$</sup>24<span>,99</span></p>
+          <p class="plan__period">por mês</p>
+          <ul class="plan__features">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Canais ao vivo</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Filmes e séries</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Esportes</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Infantil</li>
+          </ul>
+          <a class="btn btn--primary btn--block" href="https://wa.me/556892624845?text=Ol%C3%A1!%20Quero%20o%20plano%20de%201%20m%C3%AAs" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.54.05-1.03.24-2.9-.6-2.26-1.02-3.7-3.36-3.81-3.51-.11-.16-.9-1.2-.9-2.29 0-1.09.58-1.62.78-1.85.2-.22.44-.28.59-.28.15 0 .3.01.43.01.14 0 .33-.05.51.39.19.46.65 1.58.71 1.69.06.11.1.24.02.39-.08.15-.12.24-.24.37-.12.13-.25.29-.36.39-.12.11-.24.23-.11.46.13.23.58.96 1.25 1.55.86.76 1.58 1 1.81 1.11.23.11.36.09.5-.06.13-.15.57-.66.72-.89.15-.23.3-.19.51-.11.21.08 1.33.63 1.56.74.23.11.38.17.44.26.06.1.06.57-.18 1.25z"/></svg>
+            Assinar agora
+          </a>
+        </article>
+
+        <article class="plan">
+          <p class="plan__term">3 MESES</p>
+          <p class="plan__price"><sup>R$</sup>49<span>,99</span></p>
+          <p class="plan__period">por 3 meses</p>
+          <ul class="plan__features">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Canais ao vivo</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Filmes e séries</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Esportes</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Infantil</li>
+          </ul>
+          <a class="btn btn--primary btn--block" href="https://wa.me/556892624845?text=Ol%C3%A1!%20Quero%20o%20plano%20de%203%20meses" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.54.05-1.03.24-2.9-.6-2.26-1.02-3.7-3.36-3.81-3.51-.11-.16-.9-1.2-.9-2.29 0-1.09.58-1.62.78-1.85.2-.22.44-.28.59-.28.15 0 .3.01.43.01.14 0 .33-.05.51.39.19.46.65 1.58.71 1.69.06.11.1.24.02.39-.08.15-.12.24-.24.37-.12.13-.25.29-.36.39-.12.11-.24.23-.11.46.13.23.58.96 1.25 1.55.86.76 1.58 1 1.81 1.11.23.11.36.09.5-.06.13-.15.57-.66.72-.89.15-.23.3-.19.51-.11.21.08 1.33.63 1.56.74.23.11.38.17.44.26.06.1.06.57-.18 1.25z"/></svg>
+            Assinar agora
+          </a>
+        </article>
+
+        <article class="plan plan--featured">
+          <p class="plan__badge">MAIS ECONÔMICO</p>
+          <p class="plan__term">6 MESES</p>
+          <p class="plan__price"><sup>R$</sup>89<span>,99</span></p>
+          <p class="plan__period">por 6 meses</p>
+          <ul class="plan__features">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Canais ao vivo</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Filmes e séries</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Esportes</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Infantil</li>
+          </ul>
+          <a class="btn btn--primary btn--block" href="https://wa.me/556892624845?text=Ol%C3%A1!%20Quero%20o%20plano%20de%206%20meses" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.54.05-1.03.24-2.9-.6-2.26-1.02-3.7-3.36-3.81-3.51-.11-.16-.9-1.2-.9-2.29 0-1.09.58-1.62.78-1.85.2-.22.44-.28.59-.28.15 0 .3.01.43.01.14 0 .33-.05.51.39.19.46.65 1.58.71 1.69.06.11.1.24.02.39-.08.15-.12.24-.24.37-.12.13-.25.29-.36.39-.12.11-.24.23-.11.46.13.23.58.96 1.25 1.55.86.76 1.58 1 1.81 1.11.23.11.36.09.5-.06.13-.15.57-.66.72-.89.15-.23.3-.19.51-.11.21.08 1.33.63 1.56.74.23.11.38.17.44.26.06.1.06.57-.18 1.25z"/></svg>
+            Assinar agora
+          </a>
+        </article>
+
+        <article class="plan">
+          <p class="plan__term">1 ANO</p>
+          <p class="plan__price"><sup>R$</sup>149<span>,99</span></p>
+          <p class="plan__period">por 1 ano</p>
+          <ul class="plan__features">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Canais ao vivo</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Filmes e séries</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Esportes</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5 11-11"/></svg>Infantil</li>
+          </ul>
+          <a class="btn btn--primary btn--block" href="https://wa.me/556892624845?text=Ol%C3%A1!%20Quero%20o%20plano%20de%201%20ano" target="_blank" rel="noopener">
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.54.05-1.03.24-2.9-.6-2.26-1.02-3.7-3.36-3.81-3.51-.11-.16-.9-1.2-.9-2.29 0-1.09.58-1.62.78-1.85.2-.22.44-.28.59-.28.15 0 .3.01.43.01.14 0 .33-.05.51.39.19.46.65 1.58.71 1.69.06.11.1.24.02.39-.08.15-.12.24-.24.37-.12.13-.25.29-.36.39-.12.11-.24.23-.11.46.13.23.58.96 1.25 1.55.86.76 1.58 1 1.81 1.11.23.11.36.09.5-.06.13-.15.57-.66.72-.89.15-.23.3-.19.51-.11.21.08 1.33.63 1.56.74.23.11.38.17.44.26.06.1.06.57-.18 1.25z"/></svg>
+            Assinar agora
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categorias">
+    <div class="wrap">
+      <header class="section__head">
+        <h2 class="section__title">Canais ao vivo</h2>
+        <p class="section__sub">Todas as categorias que você curte, em tempo real.</p>
+      </header>
+
+      <div class="grid-cats">
+        <a class="cat" href="#categorias"><img src="img/cat-esportes.jpg" alt="Esportes" loading="lazy"><span class="cat__label">Esportes</span></a>
+        <a class="cat" href="#categorias"><img src="img/cat-filmes.jpg" alt="Filmes" loading="lazy"><span class="cat__label">Filmes</span></a>
+        <a class="cat" href="#categorias"><img src="img/cat-series.jpg" alt="Séries" loading="lazy"><span class="cat__label">Séries</span></a>
+        <a class="cat" href="#categorias"><img src="img/cat-infantil.jpg" alt="Infantil" loading="lazy"><span class="cat__label">Infantil</span></a>
+        <a class="cat" href="#categorias"><img src="img/cat-documentarios.jpg" alt="Documentários" loading="lazy"><span class="cat__label">Documentários</span></a>
+        <a class="cat" href="#categorias"><img src="img/cat-variedades.jpg" alt="Variedades" loading="lazy"><span class="cat__label">Variedades</span></a>
+        <a class="cat" href="#categorias"><img src="img/cat-noticias.jpg" alt="Notícias" loading="lazy"><span class="cat__label">Notícias</span></a>
+        <a class="cat" href="#categorias"><img src="img/cat-premium.jpg" alt="Premium" loading="lazy"><span class="cat__label">Premium</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="filmes">
+    <div class="wrap">
+      <header class="section__head section__head--split">
+        <h2 class="section__title">Filmes em destaque</h2>
+        <a class="link-all" href="#filmes">Ver todos →</a>
+      </header>
+
+      <div class="grid-rail">
+        <a class="tile" href="#filmes"><img src="img/p1.avif" alt="Filme — Ação" loading="lazy"><span class="tile__label">Ação</span></a>
+        <a class="tile" href="#filmes"><img src="img/p2.avif" alt="Filme — Aventura" loading="lazy"><span class="tile__label">Aventura</span></a>
+        <a class="tile" href="#filmes"><img src="img/p3.avif" alt="Filme — Suspense" loading="lazy"><span class="tile__label">Suspense</span></a>
+        <a class="tile" href="#filmes"><img src="img/p4.avif" alt="Filme — Fantasia" loading="lazy"><span class="tile__label">Fantasia</span></a>
+        <a class="tile" href="#filmes"><img src="img/p5.avif" alt="Filme — Ficção" loading="lazy"><span class="tile__label">Ficção</span></a>
+        <a class="tile" href="#filmes"><img src="img/p6.avif" alt="Filme — Policial" loading="lazy"><span class="tile__label">Policial</span></a>
+        <a class="tile" href="#filmes"><img src="img/p7.avif" alt="Filme — Comédia" loading="lazy"><span class="tile__label">Comédia</span></a>
+        <a class="tile" href="#filmes"><img src="img/p8.avif" alt="Filme — Drama" loading="lazy"><span class="tile__label">Drama</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="series">
+    <div class="wrap">
+      <header class="section__head section__head--split">
+        <h2 class="section__title">Séries em destaque</h2>
+        <a class="link-all" href="#series">Ver todos →</a>
+      </header>
+
+      <div class="grid-rail">
+        <a class="tile" href="#series"><img src="img/s1.jpg" alt="Série — Terror" loading="lazy"><span class="tile__label">Terror</span></a>
+        <a class="tile" href="#series"><img src="img/s2.jpg" alt="Série — Drama" loading="lazy"><span class="tile__label">Drama</span></a>
+        <a class="tile" href="#series"><img src="img/s3.jpg" alt="Série — Crime" loading="lazy"><span class="tile__label">Crime</span></a>
+        <a class="tile" href="#series"><img src="img/s4.jpg" alt="Série — Épico" loading="lazy"><span class="tile__label">Épico</span></a>
+        <a class="tile" href="#series"><img src="img/s5.jpg" alt="Série — Humor" loading="lazy"><span class="tile__label">Humor</span></a>
+        <a class="tile" href="#series"><img src="img/s6.jpg" alt="Série — Mistério" loading="lazy"><span class="tile__label">Mistério</span></a>
+        <a class="tile" href="#series"><img src="img/s7.jpg" alt="Série — Suspense" loading="lazy"><span class="tile__label">Suspense</span></a>
+        <a class="tile" href="#series"><img src="img/s8.jpg" alt="Série — Sobrevivência" loading="lazy"><span class="tile__label">Sobrevivência</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="cta">
+        <div class="cta__body">
+          <h2 class="cta__title">Faça seu pedido pelo <em>WhatsApp</em></h2>
+          <p class="cta__text">Tire suas dúvidas, escolha seu plano e comece a assistir agora mesmo.</p>
+        </div>
+
+        <a class="btn btn--primary" href="https://wa.me/556892624845?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20StreamPlay" target="_blank" rel="noopener">
+          <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2zm5.8 14.16c-.24.68-1.42 1.3-1.96 1.35-.54.05-1.03.24-2.9-.6-2.26-1.02-3.7-3.36-3.81-3.51-.11-.16-.9-1.2-.9-2.29 0-1.09.58-1.62.78-1.85.2-.22.44-.28.59-.28.15 0 .3.01.43.01.14 0 .33-.05.51.39.19.46.65 1.58.71 1.69.06.11.1.24.02.39-.08.15-.12.24-.24.37-.12.13-.25.29-.36.39-.12.11-.24.23-.11.46.13.23.58.96 1.25 1.55.86.76 1.58 1 1.81 1.11.23.11.36.09.5-.06.13-.15.57-.66.72-.89.15-.23.3-.19.51-.11.21.08 1.33.63 1.56.74.23.11.38.17.44.26.06.1.06.57-.18 1.25z"/></svg>
+          Fale Conosco
+        </a>
+
+        <div class="cta__side">
+          <div class="cta__item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="13" rx="2"/><path d="M7 21h10"/></svg>
+            <b>Qualidade HD</b><small>Full HD disponível</small>
+          </div>
+          <div class="cta__item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13v-1a8 8 0 0116 0v1"/><rect x="2.5" y="13" width="4" height="6" rx="1.6"/><rect x="17.5" y="13" width="4" height="6" rx="1.6"/></svg>
+            <b>Suporte 24h</b><small>Atendimento online</small>
+          </div>
+          <div class="cta__item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10.5" width="16" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 018 0v3"/></svg>
+            <b>Pagamento seguro</b><small>Ambiente protegido</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <a class="logo" href="#" aria-label="StreamPlay — início">
+      <span class="logo__mark" aria-hidden="true"><span class="logo__play"></span></span>
+      <span class="logo__text">STREAM<b>PLAY</b></span>
+    </a>
+
+    <nav class="footer__links" aria-label="Links do rodapé">
+      <a href="#filmes">Filmes</a>
+      <a href="#series">Séries</a>
+      <a href="#categorias">Canais</a>
+      <a href="#categorias">Esportes</a>
+      <a href="#planos">Planos</a>
+      <a href="https://wa.me/556892624845" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+
+    <small class="footer__note">Assista em qualquer lugar · (68) 926-24845</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
